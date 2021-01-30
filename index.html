@@ -1,87 +1,129 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1,h2{font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-p {line-height: 2}
-.bgimg, .bgimg2 {
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-.bgimg {background-image: url("images/MomDad.jpeg")}
-.bgimg2 {background-image: url("images/momDAd2.jpeg")}
-</style>
-<body>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+    rel="stylesheet"
+  />
 
-<!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
-  <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">Virendra & Rashmi</h1>
-    <h2>Are Celebrating Silver Jubilee</h2>
-    <h2><b>12.02.2021</b></h2>
-  </div>
-</header>
-
-<!-- Navbar (sticky bottom) -->
-<div class="w3-bottom w3-hide-small">
-  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Jane & John</a>
-    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
-    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
-  </div>
-</div>
-
-<!-- About / Jane And John -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
-  <div class="w3-content">
-    <h1 class="w3-center w3-text-grey"><b>Virendra & Rashmi</b></h1>
-    <img class="w3-round" src="images/WE.jpg" style="width:100%;margin:32px 0">
-    <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.</i>
-    </p><br>
-    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
-  </div>
-</div>
-
-<!-- Background photo -->
-<div class="w3-display-container bgimg2">
-  <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">You Are Invited</h1><br>
-    <h2>Of course..</h2>
-  </div>
-</div>
-
-<!-- Wedding information -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
-  <div class="w3-content">
-    <h1 class="w3-text-grey"><b>SILVER JUBILEE</b></h1>
-    <img class="w3-round-large" src="images/Hotel-Mumbai-House.jpeg" style="width: 100%; height: auto; margin:64px 0">
-    <div class="w3-row">
-      <div class="w3-half">
-        <h2>When</h2>
-        <p>Reception Party - 5:30pm Onwards</p>
+  <style>
+    body,
+    h1,
+    h2 {
+      font-family: "Dancing Script", cursive;
+      font-size: 30px;
+    }
+    body,
+    html {
+      height: 100%;
+    }
+    p {
+      line-height: 2;
+    }
+    .bgimg,
+    .bgimg2 {
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+    .bgimg {
+      background-image: url("images/MomDad.jpeg");
+    }
+    .bgimg2 {
+      background-image: url("images/momDAd2.jpeg");
+    }
+  </style>
+  <body>
+    <!-- Header / Home-->
+    <header class="w3-display-container w3-wide bgimg" id="home">
+      <div class="w3-display-middle w3-text-white w3-center">
+        <h1 class="w3-jumbo">Virendra & Rashmi</h1>
+        <h2>Are Celebrating Silver Jubilee</h2>
+        <h2><b>12.02.2021</b></h2>
+        <p style="font-size: medium; margin-top: 60px;">Scroll Down For Details</p>
       </div>
-      <div class="w3-half">
-        <h2>Where</h2>
-        <p>Hotel Mumbai House</p>
-        <p> Sukhadia Cir, opposite Big Bazaar, New Fatehpura, Panchwati, Udaipur, Rajasthan 313001</p>
+    </header>
+
+    <!-- About / Jane And John -->
+    <div class="w3-container w3-padding-64 w3-pale-red" id="us">
+      <div class="w3-content">
+        <h1 class="w3-center w3-text-grey"><b>Virendra & Rashmi</b></h1>
+        <img
+          class="w3-round"
+          src="images/WE.jpg"
+          style="width: 100%; margin: 32px 0"
+        />
+        <p>
+          <i
+            >On this special day when we are going to celebrate our
+            <b>Silver Jubilee (25th Anniversary)</b> with my family, your
+            esteemed presence on this auspicious occasion with your family will
+            be highly entertained.Do come and shower your blessings and love so
+            that we continue further in our journey of life with more comfort
+            and ecstasy and always be together & forever.</i
+          >
+        </p>
+        <br />
+        <p class="w3-center">
+          <a
+            href="#wedding"
+            class="w3-button w3-black w3-round w3-padding-large w3-large"
+            >Venue Details</a
+          >
+        </p>
       </div>
     </div>
-  </div>
-</div>
 
-<footer class="w3-center w3-black w3-padding-16">
-  <p>Made By <a href="https://www.linkedin.com/in/gautam-anand-82061519b/" title="W3.CSS" target="_blank" class="w3-hover-text-green">Gautam Anand</a></p>
-</footer>
-<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+    <!-- Background photo -->
+    <div class="w3-display-container bgimg2">
+      <div class="w3-display-middle w3-text-white w3-center">
+        <h1 class="w3-jumbo">You Are Invited</h1>
+        <br />
+        <h2>Of course..</h2>
+      </div>
+    </div>
 
-</body>
+    <!-- Wedding information -->
+    <div class="w3-container w3-padding-64 w3-pale-red w3-center" id="wedding">
+      <div class="w3-content">
+        <h1 class="w3-text-black" ><b>SILVER JUBILEE (25th Anniversary)</b></h1>
+        <img
+          class="w3-round-large"
+          src="images/Hotel-Mumbai-House.jpeg"
+          style="width: 100%; height: auto; margin: 64px 0"
+        />
+        <div class="w3-row">
+          <div class="w3-half">
+            <h2><b>When :</b></h2>
+            <p>Reception Party - 6:00 pm Onwards</p>
+          </div>
+          <div class="w3-half">
+            <h2><b>Venue :</b></h2>
+            <p>Hotel Mumbai House</p>
+            <p>
+              Sukhadia Cir, opposite Big Bazaar, New Fatehpura, Panchwati,
+              Udaipur, Rajasthan 313001
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w3-center w3-black w3-padding-16">
+      <p>
+        Developed By
+        <a
+          href="https://www.linkedin.com/in/gautam-anand-82061519b/"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-text-green"
+          >Gautam Anand</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
